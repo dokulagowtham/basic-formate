@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple HTML Form</title>
+</head>
+<body>
+    <h1>User Information Form</h1>
+    <form action="/submit_form" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="mobile">Mobile:</label><br>
+        <input type="tel" id="mobile" name="mobile" required><br>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="0" required><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
